@@ -71,3 +71,148 @@
         }
     }
 }
+
+// sub
+.sub {
+    #gnb {
+        .btn-move {
+            > .btn-default {
+                &:before {
+                    display: inline-block;
+                    content: "";
+                    margin-top: 7px;
+                    border-right: 13px solid transparent;
+                    border-bottom: 18px solid;
+                    border-left: 13px solid transparent;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+    #content {
+        overflow: auto;
+    }
+}
+
+// work-list 
+.work-list {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    .list {
+        padding: 50px 0 60px;
+        display: table-cell;
+        vertical-align: middle;
+        > ul {
+            > li {
+                a {
+                    display: block;
+                    figure {
+                        .img-fluid {
+                            width: 100%;
+                        }
+                    }
+                }
+                &:nth-of-type(3) ~ li {
+                    a {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// work-view
+.work-view {
+    padding: 60px 0 140px;
+    .article-header {
+        ul {
+            overflow: hidden;
+            li {
+                float: left;
+                margin-right: 55px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                dl {
+                    dt {
+                        position: relative;
+                        font-size: 22px;
+                        color: #231f20;
+                        font-weight: 600;
+                        padding-top: 10px;
+                        margin-bottom: 5px;
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            content: " ";
+                            display: block;
+                            width: 30px;
+                            height: 3px;
+                            background-color: #ffd900;
+                        }
+                    }
+                    dd {
+                        font-size: 17px;
+                        color: #231f20;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+    .article-content {
+        margin-top: 60px;
+        .details-list {
+            li {
+                figure {
+                    .img-fluid {
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
