@@ -1,7 +1,7 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php');?>
 <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body>
+<body class="content-static">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
     
     <main id="content" class="about basic-content">

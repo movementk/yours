@@ -154,62 +154,62 @@ body {
   font-weight: 400;
   font-family: 'Noto Sans KR', sans-serif; }
 
-#content {
+.main {
   position: relative;
   width: 100%;
   height: 100%; }
-
-.main .jumbotron {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  background: none;
-  border-radius: 0; }
-  .main .jumbotron .main-slide {
-    position: relative;
-    width: 100%;
-    height: 100%; }
-    .main .jumbotron .main-slide .slick-list {
-      width: 100%;
-      height: 100%; }
-      .main .jumbotron .main-slide .slick-list .slick-track {
-        width: 100%;
-        height: 100%; }
-    .main .jumbotron .main-slide li {
-      width: 100%;
-      height: 100%;
-      outline: none;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: 50% 50%; }
-  .main .jumbotron .slick-dots {
+  .main .jumbotron {
     position: absolute;
-    bottom: 60px;
+    top: 0;
     left: 0;
     width: 100%;
-    height: 16px;
-    text-align: center; }
-    .main .jumbotron .slick-dots li {
-      display: inline-block;
-      width: auto; }
-      .main .jumbotron .slick-dots li button {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border-radius: 0; }
+    .main .jumbotron .main-slide {
+      position: relative;
+      width: 100%;
+      height: 100%; }
+      .main .jumbotron .main-slide .slick-list {
+        width: 100%;
+        height: 100%; }
+        .main .jumbotron .main-slide .slick-list .slick-track {
+          width: 100%;
+          height: 100%; }
+      .main .jumbotron .main-slide li {
+        width: 100%;
+        height: 100%;
         outline: none;
-        width: 16px;
-        height: 16px;
-        display: block;
-        padding: 0;
-        text-indent: -99999px;
-        border: 2px solid #fff;
-        border-radius: 50%;
-        background-color: #fff;
-        margin: 0 8px;
-        box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35); }
-      .main .jumbotron .slick-dots li.slick-active button {
-        background-color: #ffd900; }
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%; }
+    .main .jumbotron .slick-dots {
+      position: absolute;
+      bottom: 60px;
+      left: 0;
+      width: 100%;
+      height: 16px;
+      text-align: center; }
+      .main .jumbotron .slick-dots li {
+        display: inline-block;
+        width: auto; }
+        .main .jumbotron .slick-dots li button {
+          outline: none;
+          cursor: pointer;
+          width: 16px;
+          height: 16px;
+          display: block;
+          padding: 0;
+          text-indent: -99999px;
+          border: 2px solid #fff;
+          border-radius: 50%;
+          background-color: #fff;
+          margin: 0 8px;
+          box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35); }
+        .main .jumbotron .slick-dots li.slick-active button {
+          background-color: #ffd900; }
 
 .sub #gnb .btn-move > .btn-default:before {
   display: inline-block;
@@ -220,9 +220,9 @@ body {
   border-left: 13px solid transparent;
   border-radius: 2px; }
 
-.basic-content {
-  overflow: auto; }
-
+/*.basic-content {
+    overflow: auto;
+}*/
 .work-list {
   display: table;
   width: 100%;
@@ -502,5 +502,11 @@ body {
           transition-delay: 0s; }
           .contact-request article.request .article-content .btn-area .btn-submit:hover {
             opacity: .7; }
+
+.content-static {
+  position: static;
+  padding-bottom: 0; }
+  .content-static #footer {
+    position: static; }
 
 /*# sourceMappingURL=style.css.map */
