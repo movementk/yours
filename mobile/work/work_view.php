@@ -1,11 +1,11 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php');?>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/mobile/assets/css/style.css">
 </head>
-<body class="work">
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    
-    <main id="content" class="basic-content">
+<body>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php');?>
+
+    <main id="content">
         <div class="container">
             <article class="work-view">
                 <div class="article-header">
@@ -19,31 +19,36 @@
                         <li>
                             <dl>
                                 <dt>Project</dt>
-                                <dd>좋은느낌 좋은순면 패키지 디자인</dd>
+                                <dd>좋은느낌 좋은순면 패키지 디자인 리뉴얼</dd>
                             </dl>
                         </li>
                     </ul>
+                    <a href="/mobile/work/work_list.php" class="btn btn-default" role="button">
+                        <i class="icon-th">
+                            <span class="sr-only">목록으로</span>
+                        </i>
+                    </a>
                 </div>
                 <div class="article-content">
                     <ul class="details-list">
                         <li>
                             <figure>
-                                <img src="/assets/images/work/img_slide01.jpg" class="img-fluid" alt="">
+                                <img src="/mobile/assets/images/work/img_slide01.jpg" class="img-fluid" alt="">
                             </figure>
                         </li>
                         <li>
                             <figure>
-                                <img src="/assets/images/work/img_slide01.jpg" class="img-fluid" alt="">
+                                <img src="/mobile/assets/images/work/img_slide01.jpg" class="img-fluid" alt="">
                             </figure>
                         </li>
                         <li>
                             <figure>
-                                <img src="/assets/images/work/img_slide01.jpg" class="img-fluid" alt="">
+                                <img src="/mobile/assets/images/work/img_slide01.jpg" class="img-fluid" alt="">
                             </figure>
                         </li>
                         <li>
                             <figure>
-                                <img src="/assets/images/work/img_slide01.jpg" class="img-fluid" alt="">
+                                <img src="/mobile/assets/images/work/img_slide01.jpg" class="img-fluid" alt="">
                             </figure>
                         </li>
                     </ul>
@@ -51,10 +56,10 @@
             </article>
         </div>
     </main>
-    
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php');?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php');?>
+
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php');?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php');?>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="/assets/js/slide.js"></script>
+    <script src="/mobile/assets/js/slide.js"></script>
 </body>
 </html>

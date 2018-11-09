@@ -11,12 +11,12 @@
             <div class="col-9">
                 <nav id="gnb">
                     <ul>
-                        <li><a href="#">WORK</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="/work/work_list.php">WORK</a></li>
+                        <li><a href="/about/about.php">ABOUT</a></li>
+                        <li><a href="/contact/contact_request.php">CONTACT</a></li>
                     </ul>
                     <div class="btn-move">
-                        <a href="#" class="btn btn-default" role="button">
+                        <a href="/work/work_list.php" class="btn btn-default" role="button">
                             <span class="sr-only">페이지 이동버튼</span>
                         </a>
                     </div>

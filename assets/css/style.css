@@ -219,7 +219,8 @@ body {
   border-bottom: 18px solid;
   border-left: 13px solid transparent;
   border-radius: 2px; }
-.sub #content {
+
+.basic-content {
   overflow: auto; }
 
 .work-list {
@@ -267,9 +268,239 @@ body {
         color: #231f20;
         font-weight: 300; }
   .work-view .article-content {
+    position: relative;
     margin-top: 60px; }
-    .work-view .article-content .details-list li figure .img-fluid {
-      display: block;
-      margin: 0 auto; }
+    .work-view .article-content .details-list li {
+      outline: none; }
+      .work-view .article-content .details-list li .img-fluid {
+        display: block;
+        margin: 0 auto; }
+    .work-view .article-content .slick-arrow {
+      position: absolute;
+      top: 50%;
+      font-size: 50px;
+      color: #ffdd14;
+      cursor: pointer;
+      z-index: 1;
+      padding: 0;
+      margin: 0;
+      margin-top: -37px;
+      border: 0;
+      outline: none;
+      border-radius: 0;
+      background: none;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .work-view .article-content .slick-arrow:hover {
+        opacity: .7; }
+      .work-view .article-content .slick-arrow.prev {
+        left: -20px; }
+      .work-view .article-content .slick-arrow.next {
+        right: -20px; }
+
+.about .page-header {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  background-image: url(/assets/images/about/bg_about.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .about .page-header h2 {
+    position: absolute;
+    bottom: -158px;
+    left: 50%;
+    font-size: 0;
+    margin-left: -194px; }
+    .about .page-header h2 img {
+      display: block; }
+.about article {
+  margin-top: 240px;
+  padding-bottom: 160px; }
+  .about article ul {
+    overflow: hidden; }
+    .about article ul li {
+      float: left;
+      width: 345px;
+      text-align: center;
+      margin-right: 65px; }
+      .about article ul li:last-child {
+        margin-right: 0; }
+      .about article ul li h3 {
+        position: relative;
+        display: inline-block;
+        font-size: 35px;
+        font-weight: 500;
+        padding-top: 10px;
+        color: #000; }
+        .about article ul li h3:after {
+          position: absolute;
+          top: 8px;
+          right: -10px;
+          content: "";
+          display: block;
+          z-index: 1;
+          width: 11px;
+          height: 11px;
+          border-radius: 50%;
+          border: 2px solid #000; }
+      .about article ul li b {
+        display: block;
+        font-size: 19px;
+        color: #000;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 20px; }
+      .about article ul li hr {
+        display: block;
+        width: 30px;
+        margin: 30px auto 35px;
+        border-top: 3px solid #ffd900; }
+      .about article ul li p {
+        font-size: 15px;
+        color: #000;
+        line-height: 20px;
+        word-break: keep-all;
+        text-align: justify;
+        font-weight: 300; }
+
+.contact-request {
+  padding-top: 390px;
+  padding-bottom: 75px;
+  background-image: url(/assets/images/contact/bg_contact.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 360px;
+  background-position: 50% 0; }
+  .contact-request article .article-header {
+    text-align: left; }
+    .contact-request article .article-header h2 {
+      position: relative;
+      font-size: 45px;
+      color: #000;
+      font-weight: 500;
+      padding-top: 5px;
+      display: inline-block;
+      margin-bottom: 30px; }
+      .contact-request article .article-header h2:after {
+        position: absolute;
+        top: 0;
+        right: -15px;
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        border: 3px solid #000;
+        border-radius: 50%; }
+  .contact-request article.contact {
+    padding-right: 10px; }
+    .contact-request article.contact .article-header dl {
+      padding-left: 58px;
+      background-image: url(/assets/images/contact/icon_location.jpg);
+      background-position: 0 50%;
+      background-repeat: no-repeat; }
+      .contact-request article.contact .article-header dl dt {
+        font-size: 15px;
+        color: #000;
+        font-weight: 500; }
+      .contact-request article.contact .article-header dl dd address {
+        display: block;
+        font-size: 13px;
+        color: #000;
+        font-weight: 400; }
+      .contact-request article.contact .article-header dl dd b {
+        display: block;
+        font-size: 15px;
+        color: #000;
+        font-weight: bold;
+        margin-top: 5px; }
+    .contact-request article.contact .article-content {
+      margin-top: 30px; }
+      .contact-request article.contact .article-content .maps {
+        height: 324px; }
+        .contact-request article.contact .article-content .maps img {
+          display: block;
+          width: 100%; }
+  .contact-request article.request {
+    padding-left: 70px; }
+    .contact-request article.request .article-header p {
+      font-size: 15px;
+      line-height: 18px;
+      color: #000;
+      font-weight: 300;
+      word-break: keep-all;
+      text-align: justify; }
+    .contact-request article.request .article-content {
+      margin-top: 63px; }
+      .contact-request article.request .article-content .table-wrap {
+        height: 324px; }
+        .contact-request article.request .article-content .table-wrap .table {
+          margin: 0;
+          border: 0;
+          table-layout: fixed; }
+          .contact-request article.request .article-content .table-wrap .table tbody tr td {
+            width: 100%;
+            padding: 0;
+            border: 0; }
+            .contact-request article.request .article-content .table-wrap .table tbody tr td .form-group {
+              margin-bottom: 35px; }
+              .contact-request article.request .article-content .table-wrap .table tbody tr td .form-group .form-control {
+                font-size: 15px;
+                color: #000;
+                font-weight: 400;
+                width: 100%;
+                height: 45px;
+                padding: 10px 20px;
+                border: 1px solid #000; }
+                .contact-request article.request .article-content .table-wrap .table tbody tr td .form-group .form-control::placeholder {
+                  color: #000;
+                  opacity: 1;
+                  font-weight: 500; }
+                .contact-request article.request .article-content .table-wrap .table tbody tr td .form-group .form-control:-ms-input-placeholder {
+                  color: #000;
+                  font-weight: 500; }
+                .contact-request article.request .article-content .table-wrap .table tbody tr td .form-group .form-control::-ms-input-placeholder {
+                  color: #000;
+                  font-weight: 500; }
+            .contact-request article.request .article-content .table-wrap .table tbody tr td:nth-of-type(odd) {
+              padding-right: 20px; }
+            .contact-request article.request .article-content .table-wrap .table tbody tr td:nth-of-type(even) {
+              padding-left: 20px; }
+          .contact-request article.request .article-content .table-wrap .table tbody tr:last-child td {
+            padding: 0 !important; }
+            .contact-request article.request .article-content .table-wrap .table tbody tr:last-child td .form-group {
+              margin: 0 !important; }
+              .contact-request article.request .article-content .table-wrap .table tbody tr:last-child td .form-group textarea {
+                height: 163px !important; }
+      .contact-request article.request .article-content .btn-area {
+        margin-top: 30px;
+        text-align: right; }
+        .contact-request article.request .article-content .btn-area .btn-submit {
+          display: inline-block;
+          width: 150px;
+          height: 45px;
+          border: 0;
+          line-height: 45px;
+          color: #fff;
+          font-size: 18px;
+          font-weight: 300;
+          text-align: center;
+          letter-spacing: 2px;
+          background-color: #221f1f;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+          .contact-request article.request .article-content .btn-area .btn-submit:hover {
+            opacity: .7; }
 
 /*# sourceMappingURL=style.css.map */
