@@ -140,3 +140,35 @@
         margin-top: 3px;
     }
 }
+
+// quick-top
+.quick-top {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    z-index: 100;
+    opacity: 0;
+    @include transition();
+    .btn-top {
+        width: 30px;
+        height: 30px;
+        display: block;
+        color: #ffd901;
+        border-radius: 50%;
+        background-color: #231f20;
+        &:before {
+            display: inline-block;
+            content: "";
+            margin-top: 5px;
+            border-right: 10px solid transparent;
+            border-bottom: 16px solid;
+            border-left: 10px solid transparent;
+            border-radius: 2px;
+        }
+    }
+}
+.scrolled {
+    .quick-top {
+        opacity: 1;
+    }
+}

@@ -46,8 +46,6 @@ a {
   transition-timing-function: linear;
   -webkit-transition-delay: 0s;
   transition-delay: 0s; }
-  .btn:hover {
-    opacity: .7; }
 
 .form-group {
   margin: 0; }
@@ -213,7 +211,7 @@ body {
       width: 30px;
       height: 30px;
       line-height: 28px;
-      text-align: 30px;
+      text-align: center;
       color: #ffd901;
       border-radius: 50%;
       background-color: #231f20; }
@@ -292,5 +290,163 @@ body {
   .about article {
     padding: 0 20px;
     margin-top: 80px; }
+    .about article ul li {
+      text-align: center; }
+      .about article ul li ~ li {
+        margin-top: 45px; }
+      .about article ul li h3 {
+        position: relative;
+        display: inline-block;
+        font-size: 22px;
+        color: #000;
+        font-weight: 500;
+        padding-top: 5px;
+        margin-bottom: 10px; }
+        .about article ul li h3:after {
+          position: absolute;
+          top: 0;
+          right: -7px;
+          display: block;
+          content: "";
+          width: 7px;
+          height: 7px;
+          border-radius: 50%;
+          border: 2px solid #000; }
+      .about article ul li b {
+        display: block;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000;
+        font-weight: 400; }
+      .about article ul li hr {
+        display: block;
+        margin: 10px auto;
+        width: 40px;
+        border-top: 2px solid #ffd900; }
+      .about article ul li p {
+        text-align: justify;
+        word-break: keep-all;
+        font-size: 12px;
+        color: #000;
+        line-height: 15px;
+        font-weight: 300; }
+
+.contact-request .maps {
+  width: 100%;
+  height: 180px; }
+  .contact-request .maps span {
+    display: block;
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    line-height: 180px;
+    font-size: 12px;
+    color: #000;
+    background-color: #f3f3f5; }
+.contact-request .details-addr {
+  margin-top: 15px;
+  text-align: left;
+  padding: 0 20px; }
+  .contact-request .details-addr dt {
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    margin-bottom: 5px; }
+    .contact-request .details-addr dt:after {
+      position: absolute;
+      top: 0;
+      right: -10px;
+      display: block;
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      border: 2px solid #000; }
+  .contact-request .details-addr dd {
+    padding-left: 45px;
+    background-image: url(/mobile/assets/images/contact/bg_location.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: 35px auto; }
+    .contact-request .details-addr dd b {
+      display: block;
+      font-size: 13px;
+      color: #000;
+      font-weight: 500; }
+    .contact-request .details-addr dd address {
+      display: block;
+      font-size: 12px;
+      color: #000;
+      font-weight: 300;
+      margin-bottom: 5px;
+      word-break: keep-all; }
+    .contact-request .details-addr dd p {
+      font-size: 12px;
+      color: #000;
+      font-weight: bold; }
+.contact-request .article-content {
+  margin-top: 35px;
+  padding: 0 20px 25px; }
+  .contact-request .article-content h3 {
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    margin-bottom: 5px; }
+    .contact-request .article-content h3:after {
+      position: absolute;
+      top: 0;
+      right: -10px;
+      display: block;
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      border: 2px solid #000; }
+  .contact-request .article-content p {
+    font-size: 11px;
+    color: #000;
+    line-height: 12px;
+    font-weight: 400;
+    word-break: keep-all;
+    text-align: justify; }
+  .contact-request .article-content ul {
+    margin-top: 10px; }
+    .contact-request .article-content ul li ~ li {
+      margin-top: 10px; }
+    .contact-request .article-content ul li .form-group .form-control {
+      padding: 5px 15px;
+      width: 100%;
+      height: 33px;
+      font-size: 12px;
+      color: #000;
+      border: 1px solid #000; }
+      .contact-request .article-content ul li .form-group .form-control::placeholder {
+        color: #000;
+        opacity: 1; }
+      .contact-request .article-content ul li .form-group .form-control:-ms-input-placeholder {
+        color: #000; }
+      .contact-request .article-content ul li .form-group .form-control::-ms-input-placeholder {
+        color: #000; }
+    .contact-request .article-content ul li .form-group textarea {
+      height: 90px !important; }
+  .contact-request .article-content .btn-area {
+    text-align: right;
+    margin-top: 15px; }
+    .contact-request .article-content .btn-area .btn-default {
+      display: inline-block;
+      width: 90px;
+      height: 26px;
+      font-size: 11px;
+      color: #fff;
+      line-height: 26px;
+      font-weight: 300;
+      letter-spacing: 2px;
+      background-color: #221f1f; }
 
 /*# sourceMappingURL=style.css.map */

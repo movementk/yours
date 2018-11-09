@@ -11,3 +11,6 @@
         <p class="copyright">© 2018 YOUUS DESIGN. All Rights Reserved.</p>
     </div>
 </footer>
+<div class="quick-top">
+    <a href="#" class="btn btn-top" role="button"></a>
+</div>

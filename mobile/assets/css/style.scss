@@ -112,7 +112,7 @@
             width: 30px;
             height: 30px;
             line-height: 28px;
-            text-align: 30px;
+            text-align: center;
             color: #ffd901;
             border-radius: 50%;
             background-color: #231f20;
@@ -220,40 +220,201 @@
     article {
         padding: 0 20px;
         margin-top: 80px;
+        ul {
+            li {
+                text-align: center;
+                & ~ li {
+                    margin-top: 45px;
+                }
+                h3 {
+                    position: relative;
+                    display: inline-block;
+                    font-size: 22px;
+                    color: #000;
+                    font-weight: 500;
+                    padding-top: 5px;
+                    margin-bottom: 10px;
+                    &:after {
+                        position: absolute;
+                        top: 0;
+                        right: -7px;
+                        display: block;
+                        content: "";
+                        width: 7px;
+                        height: 7px;
+                        border-radius: 50%;
+                        border: 2px solid #000;
+                    }
+                }
+                b {
+                    display: block;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #000;
+                    font-weight: 400;
+                }
+                hr {
+                    display: block;
+                    margin: 10px auto;
+                    width: 40px;
+                    border-top: 2px solid #ffd900;
+                }
+                p {
+                    text-align: justify;
+                    word-break: keep-all;
+                    font-size: 12px;
+                    color: #000;
+                    line-height: 15px;
+                    font-weight: 300;
+                }
+            }
+        }
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// contact-request
+.contact-request {
+    .maps {
+        width: 100%;
+        height: 180px;
+        span {
+            display: block;
+            width: 100%;
+            height: 180px;
+            text-align: center;
+            line-height: 180px;
+            font-size: 12px;
+            color: #000;
+            background-color: #f3f3f5;
+        }
+    }
+    .details-addr {
+        margin-top: 15px;
+        text-align: left;
+        padding: 0 20px;
+        dt {
+            position: relative;
+            display: inline-block;
+            font-size: 22px;
+            color: #000;
+            font-weight: 500;
+            letter-spacing: -.5px;
+            margin-bottom: 5px;
+            &:after {
+                position: absolute;
+                top: 0;
+                right: -10px;
+                display: block;
+                content: "";
+                width: 7px;
+                height: 7px;
+                border-radius: 50%;
+                border: 2px solid #000;
+            }
+        }
+        dd {
+            padding-left: 45px;
+            background-image: url(/mobile/assets/images/contact/bg_location.jpg);
+            background-repeat: no-repeat;
+            background-position: 0 50%;
+            background-size: 35px auto;
+            b {
+                display: block;
+                font-size: 13px;
+                color: #000;
+                font-weight: 500;
+            }
+            address {
+                display: block;
+                font-size: 12px;
+                color: #000;
+                font-weight: 300;
+                margin-bottom: 5px;
+                word-break: keep-all;
+            }
+            p {
+                font-size: 12px;
+                color: #000;
+                font-weight: bold;
+            }
+        }
+    }
+    .article-content {
+        margin-top: 35px;
+        padding: 0 20px 25px;
+        h3 {
+            position: relative;
+            display: inline-block;
+            font-size: 22px;
+            color: #000;
+            font-weight: 500;
+            letter-spacing: -.5px;
+            margin-bottom: 5px;
+            &:after {
+                position: absolute;
+                top: 0;
+                right: -10px;
+                display: block;
+                content: "";
+                width: 7px;
+                height: 7px;
+                border-radius: 50%;
+                border: 2px solid #000;
+            }
+        }
+        p {
+            font-size: 11px;
+            color: #000;
+            line-height: 12px;
+            font-weight: 400;
+            word-break: keep-all;
+            text-align: justify;
+        }
+        ul {
+            margin-top: 10px;
+            li {
+                & ~ li {
+                    margin-top: 10px;
+                }
+                .form-group {
+                    .form-control {
+                        padding: 5px 15px;
+                        width: 100%;
+                        height: 33px;
+                        font-size: 12px;
+                        color: #000;
+                        border: 1px solid #000;
+                        &::placeholder { 
+                            color: #000;
+                            opacity: 1; 
+                        }
+                        &:-ms-input-placeholder { 
+                            color: #000;
+                        }
+                        &::-ms-input-placeholder { 
+                            color: #000;
+                        }
+                    }
+                    textarea {
+                        height: 90px !important;
+                    }
+                }
+            }
+        }
+        .btn-area {
+            text-align: right;
+            margin-top: 15px;
+            .btn-default {
+                display: inline-block;
+                width: 90px;
+                height: 26px;
+                font-size: 11px;
+                color: #fff;
+                line-height: 26px;
+                font-weight: 300;
+                letter-spacing: 2px;
+                background-color: #221f1f;
+            }
+        }
+    }
+}

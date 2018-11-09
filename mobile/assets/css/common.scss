@@ -64,10 +64,6 @@ a {
     border: 0;
     background: none;
     box-shadow: none !important;
-    @include transition();
-    &:hover {
-        opacity: .7;
-    }
 }
 
 .form-group {

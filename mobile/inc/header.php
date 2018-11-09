@@ -17,8 +17,8 @@
 </header>
 <nav id="gnb">
     <ul>
-        <li><a href="/mobile/work/">WORK</a></li>
-        <li><a href="/mobile/about/">ABOUT</a></li>
-        <li><a href="/mobile/contact/">CONTACT</a></li>
+        <li><a href="/mobile/work/work_list.php">WORK</a></li>
+        <li><a href="/mobile/about/about.php">ABOUT</a></li>
+        <li><a href="/mobile/contact/contact_request.php">CONTACT</a></li>
     </ul>
 </nav>
