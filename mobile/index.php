@@ -8,7 +8,7 @@
     <main id="content" class="main">
         <div class="jumbotron">
             <ul class="main-slide">
-                <li style="background-image: url(/mobile/assets/images/main/img_slide01.jpg);"></li>
+                <li style="background-image: url(/mobile/assets/images/main/img_slide01.gif);"></li>
                 <li style="background-image: url(/mobile/assets/images/main/img_slide02.jpg);"></li>
                 <li style="background-image: url(/mobile/assets/images/main/img_slide03.jpg);"></li>
                 <li style="background-image: url(/mobile/assets/images/main/img_slide04.jpg);"></li>

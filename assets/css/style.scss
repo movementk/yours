@@ -108,8 +108,40 @@
                 a {
                     display: block;
                     figure {
+                        position: relative;
                         .img-fluid {
                             width: 100%;
+                        }
+                        figcaption {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            padding: 20px 30px;
+                            opacity: 0;
+                            @include transition();
+                            background-color: rgba(255, 217, 0, .85);
+                            h3 {
+                                font-size: 19px;
+                                color: #262323;
+                                font-weight: 400;
+                            }
+                            p {
+                                position: absolute;
+                                bottom: 20px;
+                                left: 30px;
+                                font-size: 14px;
+                                color: #262323;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                    &:hover {
+                        figure {
+                            figcaption {
+                                opacity: 1;
+                            }
                         }
                     }
                 }
@@ -289,7 +321,7 @@
     padding-top: 390px;
     padding-bottom: 75px;
     background-image: url(/assets/images/contact/bg_contact.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-size: auto 360px;
     background-position: 50% 0;
     article {
@@ -448,7 +480,7 @@
                         background-color: #221f1f;
                         @include transition();
                         &:hover {
-                            opacity: .7;
+                            color: #ffd700;
                         }
                     }
                 }

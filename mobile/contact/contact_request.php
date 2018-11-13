@@ -15,7 +15,7 @@
                     <dd>
                         <b>유어스디자인그룹</b>
                         <address>서울시 강남구 선릉로 112길 37 건정빌딩 3층 2호</address>
-                        <p>+82 (0)2 517 7778</p>
+                        <a href="tel:+82025177778">+82 (0)2 517 7778</a>
                     </dd>
                 </dl>
                 <div class="article-content">

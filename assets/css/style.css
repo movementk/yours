@@ -233,8 +233,40 @@ body {
     vertical-align: middle; }
     .work-list .list > ul > li a {
       display: block; }
-      .work-list .list > ul > li a figure .img-fluid {
-        width: 100%; }
+      .work-list .list > ul > li a figure {
+        position: relative; }
+        .work-list .list > ul > li a figure .img-fluid {
+          width: 100%; }
+        .work-list .list > ul > li a figure figcaption {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          padding: 20px 30px;
+          opacity: 0;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+          background-color: rgba(255, 217, 0, 0.85); }
+          .work-list .list > ul > li a figure figcaption h3 {
+            font-size: 19px;
+            color: #262323;
+            font-weight: 400; }
+          .work-list .list > ul > li a figure figcaption p {
+            position: absolute;
+            bottom: 20px;
+            left: 30px;
+            font-size: 14px;
+            color: #262323;
+            font-weight: 300; }
+      .work-list .list > ul > li a:hover figure figcaption {
+        opacity: 1; }
     .work-list .list > ul > li:nth-of-type(3) ~ li a {
       margin-top: 30px; }
 
@@ -374,7 +406,7 @@ body {
   padding-top: 390px;
   padding-bottom: 75px;
   background-image: url(/assets/images/contact/bg_contact.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: auto 360px;
   background-position: 50% 0; }
   .contact-request article .article-header {
@@ -501,7 +533,7 @@ body {
           -webkit-transition-delay: 0s;
           transition-delay: 0s; }
           .contact-request article.request .article-content .btn-area .btn-submit:hover {
-            opacity: .7; }
+            color: #ffd700; }
 
 .content-static {
   position: static;

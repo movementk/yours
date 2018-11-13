@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-6">
-                <h2>YOUUS DESIGN</h2>
+                <h2>YOUUS DESIGN GROUP</h2>
                 <p class="copyright">© 2018 YOUUS DESIGN. All Rights Reserved.</p>
             </div>
             <div class="col-6">

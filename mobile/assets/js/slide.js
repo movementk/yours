@@ -4,7 +4,7 @@
     $(document).ready(function(){
        $('.main-slide').slick({
            autoplay: true,
-           autoplaySpeed: 6000,
+           autoplaySpeed: 3000,
            arrows: false,
            dots: true
        });
@@ -14,7 +14,7 @@
     $(document).ready(function(){
        $('.details-list').slick({
            autoplay: true,
-           autoplaySpeed: 6000,
+           autoplaySpeed: 3000,
            arrows: false,
            dots: true
        });
