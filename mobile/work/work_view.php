@@ -9,20 +9,6 @@
         <div class="container">
             <article class="work-view">
                 <div class="article-header">
-                    <ul>
-                        <li>
-                            <dl>
-                                <dt>Client</dt>
-                                <dd>Yuhan-Kimberly</dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>Project</dt>
-                                <dd>좋은느낌 좋은순면 패키지 디자인 리뉴얼</dd>
-                            </dl>
-                        </li>
-                    </ul>
                     <a href="/mobile/work/work_list.php" class="btn btn-default" role="button">
                         <i class="icon-th">
                             <span class="sr-only">목록으로</span>
@@ -32,21 +18,58 @@
                 <div class="article-content">
                     <ul class="details-list">
                         <li>
+                            <ul class="details">
+                                <li>
+                                    <dl>
+                                        <dt>Client</dt>
+                                        <dd>Yuhan-Kimberly</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>Project</dt>
+                                        <dd>좋은느낌 좋은순면 패키지 디자인 리뉴얼</dd>
+                                    </dl>
+                                </li>
+                            </ul>
                             <figure>
                                 <img src="/mobile/assets/images/work/img_slide01.jpg" class="img-fluid" alt="">
                             </figure>
                         </li>
                         <li>
+                            <ul class="details">
+                                <li>
+                                    <dl>
+                                        <dt>Client</dt>
+                                        <dd>Yuhan-Kimberly</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>Project</dt>
+                                        <dd>좋은느낌 좋은순면 패키지 디자인 리뉴얼</dd>
+                                    </dl>
+                                </li>
+                            </ul>
                             <figure>
                                 <img src="/mobile/assets/images/work/img_slide01.jpg" class="img-fluid" alt="">
                             </figure>
                         </li>
                         <li>
-                            <figure>
-                                <img src="/mobile/assets/images/work/img_slide01.jpg" class="img-fluid" alt="">
-                            </figure>
-                        </li>
-                        <li>
+                            <ul class="details">
+                                <li>
+                                    <dl>
+                                        <dt>Client</dt>
+                                        <dd>Yuhan-Kimberly</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>Project</dt>
+                                        <dd>좋은느낌 좋은순면 패키지 디자인 리뉴얼</dd>
+                                    </dl>
+                                </li>
+                            </ul>
                             <figure>
                                 <img src="/mobile/assets/images/work/img_slide01.jpg" class="img-fluid" alt="">
                             </figure>

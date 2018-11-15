@@ -117,49 +117,50 @@
             border-radius: 50%;
             background-color: #231f20;
         }
-        > ul {
-            > li {
-                & ~ li {
-                    margin-top: 15px;
+    }
+    .details {
+        > li {
+            & ~ li {
+                margin-top: 15px;
+            }
+            dl {
+                dt {
+                    position: relative;
+                    font-size: 14px;
+                    color: #231f20;
+                    font-weight: 600;
+                    padding-top: 5px;
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        content: "";
+                        display: block;
+                        width: 20px;
+                        height: 2px;
+                        background-color: #ffd900;
+                    }
                 }
-                dl {
-                    dt {
-                        position: relative;
-                        font-size: 14px;
-                        color: #231f20;
-                        font-weight: 600;
-                        padding-top: 5px;
-                        &:before {
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            content: "";
-                            display: block;
-                            width: 20px;
-                            height: 2px;
-                            background-color: #ffd900;
-                        }
-                    }
-                    dd {
-                        font-size: 12px;
-                        color: #231f20;
-                        font-weight: 300;
-                    }
+                dd {
+                    font-size: 12px;
+                    color: #231f20;
+                    font-weight: 300;
                 }
             }
         }
     }
     .article-content {
-        margin-top: 25px;
         padding-bottom: 65px;
         .details-list {
             position: relative;
             li {
                 outline: none;
                 figure {
+                    min-height: 500px;
+                    line-height: 500px;
                     .img-fluid {
+                        display: inline-block;
                         width: 100%;
-                        display: block;
                     }
                 }
             }
