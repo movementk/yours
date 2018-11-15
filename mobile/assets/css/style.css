@@ -441,4 +441,7 @@ body {
       letter-spacing: 2px;
       background-color: #221f1f; }
 
+.none-foot #footer {
+  display: none; }
+
 /*# sourceMappingURL=style.css.map */

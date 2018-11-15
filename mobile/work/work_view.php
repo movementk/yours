@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="/mobile/assets/css/style.css">
 </head>
-<body>
+<body class="none-foot">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php');?>
 
     <main id="content">
