@@ -67,13 +67,47 @@
             a {
                 display: block;
                 figure {
+                    position: relative;
                     .img-fluid {
                         width: 100%;
+                    }
+                    figcaption {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        padding: 15px 20px;
+                        opacity: 0;
+                        background-color: rgba(255, 217, 0, .85);
+                        @include transition();
+                        h3 {
+                            font-size: 15px;
+                            color: #262323;
+                            font-weight: 400;
+                        }
+                        p {
+                            position: absolute;
+                            bottom: 15px;
+                            left: 20px;
+                            font-size: 12px;
+                            color: #262323;
+                            font-weight: 300;
+                        }
                     }
                 }
             }
             &:last-child {
                 border-bottom: 0;
+            }
+            &.active {
+                a {
+                    figure {
+                        figcaption {
+                            opacity: 1;
+                        }
+                    }
+                }
             }
         }
     }
@@ -86,15 +120,20 @@
     left: 0;
     width: 100%;
     z-index: 101;
-    a {
+    .btn-pop {
         display: block;
-        padding: 20px;
+        height: 55px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+        background-image: url(/mobile/assets/images/work/pop_sign_txt.png);
+        background-repeat: no-repeat;
+        background-position: 20px 50%;
         background-color: #e1e1e1;
+        background-size: 140px auto;
         box-shadow: 0px -3px 7px 0px rgba(0, 0, 0, 0.35);
-        img {
-            width: 140px;
+        @include transition();
+        &.active {
+            background-image: url(/mobile/assets/images/work/pop_on_sign_txt.png);
         }
     }
 }
@@ -112,10 +151,15 @@
             width: 30px;
             height: 30px;
             line-height: 28px;
+            z-index: 1;
             text-align: center;
-            color: #ffd901;
+            color: #fff;
             border-radius: 50%;
             background-color: #231f20;
+            @include transition();
+            &.active {
+                color: #ffd901;
+            }
         }
     }
     .details {
@@ -415,6 +459,10 @@
                 font-weight: 300;
                 letter-spacing: 2px;
                 background-color: #221f1f;
+                @include transition();
+                &.active {
+                    color: #ffd902;
+                }
             }
         }
     }

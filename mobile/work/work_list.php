@@ -11,6 +11,10 @@
                     <a href="/mobile/work/work_view.php">
                         <figure>
                             <img src="/mobile/assets/images/work/img_logo01.jpg" class="img-fluid" alt="">
+                            <figcaption>
+                                <h3>좋은느낌</h3>
+                                <p>Package Design</p>
+                            </figcaption>
                         </figure>
                     </a>
                 </li>
@@ -18,6 +22,10 @@
                     <a href="/mobile/work/work_view.php">
                         <figure>
                             <img src="/mobile/assets/images/work/img_logo01.jpg" class="img-fluid" alt="">
+                            <figcaption>
+                                <h3>좋은느낌</h3>
+                                <p>Package Design</p>
+                            </figcaption>
                         </figure>
                     </a>
                 </li>
@@ -25,6 +33,10 @@
                     <a href="/mobile/work/work_view.php">
                         <figure>
                             <img src="/mobile/assets/images/work/img_logo01.jpg" class="img-fluid" alt="">
+                            <figcaption>
+                                <h3>좋은느낌</h3>
+                                <p>Package Design</p>
+                            </figcaption>
                         </figure>
                     </a>
                 </li>
@@ -32,6 +44,10 @@
                     <a href="/mobile/work/work_view.php">
                         <figure>
                             <img src="/mobile/assets/images/work/img_logo01.jpg" class="img-fluid" alt="">
+                            <figcaption>
+                                <h3>좋은느낌</h3>
+                                <p>Package Design</p>
+                            </figcaption>
                         </figure>
                     </a>
                 </li>
@@ -39,6 +55,10 @@
                     <a href="/mobile/work/work_view.php">
                         <figure>
                             <img src="/mobile/assets/images/work/img_logo01.jpg" class="img-fluid" alt="">
+                            <figcaption>
+                                <h3>좋은느낌</h3>
+                                <p>Package Design</p>
+                            </figcaption>
                         </figure>
                     </a>
                 </li>
@@ -54,9 +74,7 @@
     </main>
     
     <div class="pop-design">
-        <a href="#">
-            <img src="/mobile/assets/images/work/pop_sign_txt.png" alt="">
-        </a>
+        <a href="#" class="btn-pop"></a>
     </div>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php');?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php');?>

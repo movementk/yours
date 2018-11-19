@@ -153,9 +153,10 @@
         width: 30px;
         height: 30px;
         display: block;
-        color: #ffd901;
+        color: #fff;
         border-radius: 50%;
         background-color: #231f20;
+        @include transition();
         &:before {
             display: inline-block;
             content: "";
@@ -164,6 +165,9 @@
             border-bottom: 16px solid;
             border-left: 10px solid transparent;
             border-radius: 2px;
+        }
+        &.active {
+            color: #ffd901;
         }
     }
 }
