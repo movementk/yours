@@ -5,11 +5,11 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
     
     <main id="content" class="basic-content">
-        <div class="container">
-            <div class="work-list">
+        <div class="work-list">
+            <div class="container">
                 <article class="list">
-                    <ul class="row">
-                        <li class="col-4">
+                    <ul>
+                        <li>
                             <a href="/work/work_view.php">
                                 <figure>
                                     <img src="/assets/images/work/img_logo01.jpg" class="img-fluid" alt="">
@@ -20,7 +20,7 @@
                                 </figure>
                             </a>
                         </li>
-                        <li class="col-4">
+                        <li>
                             <a href="/work/work_view.php">
                                 <figure>
                                     <img src="/assets/images/work/img_logo02.jpg" class="img-fluid" alt="">
@@ -31,7 +31,7 @@
                                 </figure>
                             </a>
                         </li>
-                        <li class="col-4">
+                        <li>
                             <a href="/work/work_view.php">
                                 <figure>
                                     <img src="/assets/images/work/img_logo03.jpg" class="img-fluid" alt="">
@@ -42,7 +42,7 @@
                                 </figure>
                             </a>
                         </li>
-                        <li class="col-4">
+                        <li>
                             <a href="/work/work_view.php">
                                 <figure>
                                     <img src="/assets/images/work/img_logo04.jpg" class="img-fluid" alt="">
@@ -53,7 +53,7 @@
                                 </figure>
                             </a>
                         </li>
-                        <li class="col-4">
+                        <li>
                             <a href="/work/work_view.php">
                                 <figure>
                                     <img src="/assets/images/work/img_logo05.jpg" class="img-fluid" alt="">
@@ -64,7 +64,7 @@
                                 </figure>
                             </a>
                         </li>
-                        <li class="col-4">
+                        <li>
                             <a href="/work/work_view.php">
                                 <figure>
                                     <img src="/assets/images/work/img_logo06.jpg" class="img-fluid" alt="">
@@ -75,7 +75,7 @@
                                 </figure>
                             </a>
                         </li>
-                        <li class="col-4">
+                        <li>
                             <a href="/work/work_view.php">
                                 <figure>
                                     <img src="/assets/images/work/img_logo07.jpg" class="img-fluid" alt="">
@@ -86,7 +86,7 @@
                                 </figure>
                             </a>
                         </li>
-                        <li class="col-4">
+                        <li>
                             <a href="/work/work_view.php">
                                 <figure>
                                     <img src="/assets/images/work/img_logo08.jpg" class="img-fluid" alt="">
@@ -97,7 +97,7 @@
                                 </figure>
                             </a>
                         </li>
-                        <li class="col-4">
+                        <li>
                             <a href="/work/work_view.php">
                                 <figure>
                                     <img src="/assets/images/work/img_logo09.jpg" class="img-fluid" alt="">
@@ -108,7 +108,7 @@
                                 </figure>
                             </a>
                         </li>
-                        <li class="col-4">
+                        <li>
                             <a href="/work/work_view.php">
                                 <figure>
                                     <img src="/assets/images/work/img_logo10.jpg" class="img-fluid" alt="">
@@ -119,7 +119,7 @@
                                 </figure>
                             </a>
                         </li>
-                        <li class="col-4">
+                        <li>
                             <a href="/work/work_view.php">
                                 <figure>
                                     <img src="/assets/images/work/img_logo11.jpg" class="img-fluid" alt="">
@@ -130,7 +130,7 @@
                                 </figure>
                             </a>
                         </li>
-                        <li class="col-4">
+                        <li>
                             <a href="/work/work_view.php">
                                 <figure>
                                     <img src="/assets/images/work/img_pop_design.png" class="img-fluid" alt="">
