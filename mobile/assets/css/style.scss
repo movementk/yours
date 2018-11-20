@@ -153,12 +153,12 @@
             line-height: 28px;
             z-index: 1;
             text-align: center;
-            color: #fff;
+            color: #ffd901;
             border-radius: 50%;
             background-color: #231f20;
             @include transition();
             &.active {
-                color: #ffd901;
+                color: #fff;
             }
         }
     }
@@ -454,14 +454,14 @@
                 width: 90px;
                 height: 26px;
                 font-size: 11px;
-                color: #fff;
+                color: #ffd902;
                 line-height: 26px;
                 font-weight: 300;
                 letter-spacing: 2px;
                 background-color: #221f1f;
                 @include transition();
                 &.active {
-                    color: #ffd902;
+                    color: #fff;
                 }
             }
         }

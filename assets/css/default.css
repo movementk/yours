@@ -179,6 +179,7 @@ body {
     #header .logo a {
       display: block; }
       #header .logo a img {
+        height: 55px;
         display: block; }
 
 #gnb {

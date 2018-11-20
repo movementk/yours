@@ -17,8 +17,8 @@
            autoplaySpeed: 3000,
            dots: false,
            arrows: true,
-           prevArrow: '<button class="prev slick-arrow"><i class="icon-left-open"></i></button>',
-           nextArrow: '<button class="next slick-arrow"><i class="icon-right-open"></i></button>'
+           prevArrow: '<button class="prev slick-arrow"><img src="/assets/images/work/icon_left_btn.png" alt=""></button>',
+           nextArrow: '<button class="next slick-arrow"><img src="/assets/images/work/icon_right_btn.png" alt=""></button>'
        });
     });
 })(jQuery);

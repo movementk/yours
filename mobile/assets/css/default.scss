@@ -153,7 +153,7 @@
         width: 30px;
         height: 30px;
         display: block;
-        color: #fff;
+        color: #ffd901;
         border-radius: 50%;
         background-color: #231f20;
         @include transition();
@@ -167,7 +167,7 @@
             border-radius: 2px;
         }
         &.active {
-            color: #ffd901;
+            color: #fff;
         }
     }
 }
