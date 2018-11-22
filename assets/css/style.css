@@ -207,7 +207,7 @@ body {
           border-radius: 50%;
           background-color: #fff;
           margin: 0 8px;
-          box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35); }
+          box-shadow: 0px 0px 7px 0px rgba(180, 180, 180, 0.35); }
         .main .jumbotron .slick-dots li.slick-active button {
           background-color: #ffd900; }
 
@@ -272,6 +272,23 @@ body {
         margin-top: 27px; }
       .work-list .list > ul > li:nth-of-type(3n + 1) {
         clear: both; }
+      .work-list .list > ul > li.popdesign > a figure .img-fluid {
+        position: relative;
+        z-index: 100;
+        background-image: url(/assets/images/work/img_pop_design.png);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: contain;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+      .work-list .list > ul > li.popdesign > a:hover figure .img-fluid {
+        background-image: url(/assets/images/work/img_pop_design_on.png); }
 
 .work-view {
   position: relative;

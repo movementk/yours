@@ -62,10 +62,11 @@
                         </figure>
                     </a>
                 </li>
-                <li>
+                <li class="popdesign">
                     <a href="/mobile/work/work_view.php">
                         <figure>
-                            <img src="/mobile/assets/images/work/icon_popdesign.jpg" class="img-fluid" alt="">
+                            <img src="/mobile/assets/images/work/bg_popdesign.png" class="img-fluid" alt="">
+                            <figcaption></figcaption>
                         </figure>
                     </a>
                 </li>

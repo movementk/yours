@@ -58,7 +58,7 @@
                     border-radius: 50%;
                     background-color: #fff;
                     margin: 0 8px;
-                    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35);
+                    box-shadow: 0px 0px 7px 0px rgba(180, 180, 180, 0.35);
                 }
                 &.slick-active {
                     button {
@@ -152,6 +152,28 @@
                 }
                 &:nth-of-type(3n + 1) {
                     clear: both;
+                }
+                &.popdesign {
+                    > a {
+                        figure {
+                            .img-fluid {
+                                position: relative;
+                                z-index: 100;
+                                background-image: url(/assets/images/work/img_pop_design.png);
+                                background-repeat: no-repeat;
+                                background-position: 50% 50%;
+                                background-size: contain;
+                                @include transition();
+                            }
+                        }
+                        &:hover {
+                            figure {
+                                .img-fluid {
+                                    background-image: url(/assets/images/work/img_pop_design_on.png);
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

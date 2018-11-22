@@ -130,10 +130,10 @@
                                 </figure>
                             </a>
                         </li>
-                        <li>
+                        <li class="popdesign">
                             <a href="/work/work_view.php">
                                 <figure>
-                                    <img src="/assets/images/work/img_pop_design.png" class="img-fluid" alt="">
+                                    <img src="/assets/images/work/bg_popdesign.png" class="img-fluid" alt="">
                                     <figcaption></figcaption>
                                 </figure>
                             </a>
