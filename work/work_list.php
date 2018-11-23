@@ -134,7 +134,6 @@
                             <a href="/work/work_view.php">
                                 <figure>
                                     <img src="/assets/images/work/bg_popdesign.png" class="img-fluid" alt="">
-                                    <figcaption></figcaption>
                                 </figure>
                             </a>
                         </li>

@@ -75,7 +75,10 @@
     </main>
     
     <div class="pop-design">
-        <a href="#" class="btn-pop"></a>
+        <a href="#" class="btn-pop">
+            <img src="/mobile/assets/images/work/pop_sign_txt.png" class="default" alt="">
+            <img src="/mobile/assets/images/work/pop_on_sign_txt.png" class="on" alt="">
+        </a>
     </div>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php');?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php');?>

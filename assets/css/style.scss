@@ -169,7 +169,7 @@
                         &:hover {
                             figure {
                                 .img-fluid {
-                                    background-image: url(/assets/images/work/img_pop_design_on.png);
+                                    background-image: url(/assets/images/work/img_pop_design_on.jpg);
                                 }
                             }
                         }
@@ -298,6 +298,7 @@
             font-size: 0;
             margin-left: -194px;
             img {
+                width: 440px;
                 display: block;
             }
         }
@@ -404,8 +405,9 @@
             .article-header {
                 dl {
                     padding-left: 58px;
-                    background-image: url(/assets/images/contact/icon_location.jpg);
+                    background-image: url(/assets/images/contact/icon_location.png);
                     background-position: 0 50%;
+                    background-size: 40px auto;
                     background-repeat: no-repeat;
                     dt {
                         font-size: 15px;

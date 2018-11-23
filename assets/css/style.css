@@ -288,7 +288,7 @@ body {
         -webkit-transition-delay: 0s;
         transition-delay: 0s; }
       .work-list .list > ul > li.popdesign > a:hover figure .img-fluid {
-        background-image: url(/assets/images/work/img_pop_design_on.png); }
+        background-image: url(/assets/images/work/img_pop_design_on.jpg); }
 
 .work-view {
   position: relative;
@@ -394,6 +394,7 @@ body {
     font-size: 0;
     margin-left: -194px; }
     .about .page-header h2 img {
+      width: 440px;
       display: block; }
 .about article {
   margin-top: 240px;
@@ -478,8 +479,9 @@ body {
     padding-right: 10px; }
     .contact-request article.contact .article-header dl {
       padding-left: 58px;
-      background-image: url(/assets/images/contact/icon_location.jpg);
+      background-image: url(/assets/images/contact/icon_location.png);
       background-position: 0 50%;
+      background-size: 40px auto;
       background-repeat: no-repeat; }
       .contact-request article.contact .article-header dl dt {
         font-size: 15px;

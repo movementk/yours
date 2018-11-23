@@ -142,6 +142,31 @@
     width: 100%;
     z-index: 101;
     .btn-pop {
+        position: relative;
+        display: block;
+        img {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            @include transition();
+            width: 100%;
+            &.default {
+                opacity: 1;
+            }
+            &.on {
+                opacity: 0;
+            }
+        }
+        &.active {
+            &.default {
+                opacity: 0;
+            }
+            &.on {
+                opacity: 1;
+            }
+        }
+    }
+    /*.btn-pop {
         display: block;
         height: 55px;
         border-top-left-radius: 20px;
@@ -156,7 +181,7 @@
         &.active {
             background-image: url(/mobile/assets/images/work/pop_on_sign_txt.png);
         }
-    }
+    }*/
 }
 
 // work-view
