@@ -275,7 +275,7 @@ body {
       .work-list .list > ul > li.popdesign > a figure .img-fluid {
         position: relative;
         z-index: 100;
-        background-image: url(/assets/images/work/img_pop_design.png);
+        /*background-image: url(/assets/images/work/img_pop_design.png);*/
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: contain;
@@ -288,7 +288,7 @@ body {
         -webkit-transition-delay: 0s;
         transition-delay: 0s; }
       .work-list .list > ul > li.popdesign > a:hover figure .img-fluid {
-        background-image: url(/assets/images/work/img_pop_design_on.jpg); }
+        /*background-image: url(/assets/images/work/img_pop_design_on.jpg);*/ }
 
 .work-view {
   position: relative;

@@ -209,12 +209,12 @@ body {
   .work-list ul li.popdesign > a figure .img-fluid {
     position: relative;
     z-index: 1;
-    background-image: url(/mobile/assets/images/work/icon_popdesign.png);
+    /*background-image: url(/mobile/assets/images/work/icon_popdesign.png);*/
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain; }
   .work-list ul li.popdesign.active figure .img-fluid {
-    background-image: url(/mobile/assets/images/work/icon_popdesign_on.png); }
+    /*background-image: url(/mobile/assets/images/work/icon_popdesign_on.png);*/ }
 
 .pop-design {
   position: fixed;

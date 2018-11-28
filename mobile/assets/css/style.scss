@@ -115,7 +115,7 @@
                         .img-fluid {
                             position: relative;
                             z-index: 1;
-                            background-image: url(/mobile/assets/images/work/icon_popdesign.png);
+                            /*background-image: url(/mobile/assets/images/work/icon_popdesign.png);*/
                             background-position: 50% 50%;
                             background-repeat: no-repeat;
                             background-size: contain;
@@ -125,7 +125,7 @@
                 &.active {
                     figure {
                         .img-fluid {
-                            background-image: url(/mobile/assets/images/work/icon_popdesign_on.png);
+                            /*background-image: url(/mobile/assets/images/work/icon_popdesign_on.png);*/
                         }
                     }
                 }
