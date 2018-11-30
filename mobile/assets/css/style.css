@@ -283,7 +283,8 @@ body {
       line-height: 28px;
       z-index: 1;
       text-align: center;
-      color: #ffd901;
+      color: #fff;
+      /*color: #ffd901;*/
       border-radius: 50%;
       background-color: #231f20;
       -webkit-transition-property: all;
@@ -295,7 +296,8 @@ body {
       -webkit-transition-delay: 0s;
       transition-delay: 0s; }
       .work-view .article-header .btn-default.active {
-        color: #fff; }
+        color: #ffd901;
+        /*color: #fff;*/ }
   .work-view .details > li ~ li {
     margin-top: 15px; }
   .work-view .details > li dl dt {
@@ -526,7 +528,8 @@ body {
       width: 90px;
       height: 26px;
       font-size: 11px;
-      color: #ffd902;
+      color: #fff;
+      /*color: #ffd902;*/
       line-height: 26px;
       font-weight: 300;
       letter-spacing: 2px;
@@ -540,7 +543,8 @@ body {
       -webkit-transition-delay: 0s;
       transition-delay: 0s; }
       .contact-request .article-content .btn-area .btn-default.active {
-        color: #fff; }
+        /*color: #fff;*/
+        color: #ffd902; }
 
 .none-foot #footer {
   display: none; }
